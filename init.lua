@@ -11,4 +11,4 @@ vim.keymap.set({ "n", "x" }, "<leader>j", "<C-w>j")
 vim.keymap.set({ "n", "x" }, "<leader>k", "<C-w>k")
 
 -- Set leader shortcut for VSCode quit debug session
-vim.keymap.set({ "n", "x" }, "<leader>c", "<S>F5")
+vim.keymap.set({ "n", "x" }, "<leader>c", "<S-c>")
