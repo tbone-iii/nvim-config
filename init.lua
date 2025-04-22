@@ -12,3 +12,6 @@ vim.keymap.set({ "n", "x" }, "<leader>k", "<C-w>k")
 
 -- Set leader shortcut for VSCode quit debug session
 vim.keymap.set({ "n", "x" }, "<leader>c", "<S-c>")
+
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
